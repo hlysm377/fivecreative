@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments!</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="javascripts/comments.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+
+<body>
+  <form id="commentForm" action="">
+    <label for="name">Name: </label><input type="text" id="name" placeholder="Name"><br>
+    <label for="comment">Comment: </label><input type="text" id="comment" placeholder="Comment"><br>
+  </form>
+
+  <button id="postComment">Post Comment</button>
+  <button id="getComments">Get Comments</button>
+  <button id="deleteComments">Delete All</button>
+  <div id="section">
+    <div id="json"></div>
+    <div id="done"></div>
+  </div>
+  <div id="results">
+    <p>Current Comments</p>
+    <div id="comments"></div>
+  </div>
+</body>
+</html>
